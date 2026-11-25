@@ -13,7 +13,7 @@ h = heuristica_bucareste[inicio]
 no_inicial = (g + h, g, inicio, [inicio])
 
 fronteira = [no_inicial]
-16 print('Fronteira no começo:', fronteira)
+print('Fronteira no começo:', fronteira)
 
 # ----- PASSO 3: tirar o primeiro nó da fronteira -----
 no = fronteira.pop(0)
