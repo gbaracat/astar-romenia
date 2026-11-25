@@ -32,9 +32,9 @@ for vizinho, custo_estrada in mapa_romenia[cidade_atual]:
     novo_caminho = caminho + [vizinho]
     fronteira.append((novo_f, novo_g, vizinho, novo_caminho))
 
- print()
- print('Fronteira depois de expandir Arad (ordem de inserção):')
- for item in fronteira:
+print()
+print('Fronteira depois de expandir Arad (ordem de inserção):')
+for item in fronteira:
      print(' ', item)
 
 
